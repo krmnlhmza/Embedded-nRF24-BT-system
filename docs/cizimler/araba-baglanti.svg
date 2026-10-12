@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="Helvetica,Arial,sans-serif">
+<rect width="1200" height="700" fill="#ffffff"/>
+<text x="600" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#212121">Araba (alıcı) bağlantı şeması — nRF24 sürümü</text>
+<rect x="200" y="45" width="170" height="62" rx="8" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+<text x="285.0" y="70.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#212121">Motor pili</text>
+<text x="285.0" y="90.0" text-anchor="middle" font-size="12" fill="#424242">2S LiPo · 7,4 V</text>
+<rect x="420" y="45" width="125" height="62" rx="8" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+<text x="482.5" y="70.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#212121">Lojik pili</text>
+<text x="482.5" y="90.0" text-anchor="middle" font-size="12" fill="#424242">ayrı pil</text>
+<rect x="595" y="45" width="170" height="62" rx="8" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<text x="680.0" y="70.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#212121">DC-DC regülatör</text>
+<text x="680.0" y="90.0" text-anchor="middle" font-size="12" fill="#424242">çıkış ≈ 5,8 V</text>
+<rect x="20" y="290" width="120" height="60" rx="8" fill="#eceff1" stroke="#424242" stroke-width="2"/>
+<text x="80.0" y="314.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#212121">Sol 2 motor</text>
+<text x="80.0" y="334.0" text-anchor="middle" font-size="12" fill="#424242">paralel</text>
+<rect x="20" y="380" width="120" height="60" rx="8" fill="#eceff1" stroke="#424242" stroke-width="2"/>
+<text x="80.0" y="404.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#212121">Sağ 2 motor</text>
+<text x="80.0" y="424.0" text-anchor="middle" font-size="12" fill="#424242">paralel</text>
+<rect x="200" y="250" width="170" height="220" rx="8" fill="#ffebee" stroke="#b71c1c" stroke-width="2"/>
+<text x="285" y="460" text-anchor="middle" font-size="15" fill="#212121" font-weight="bold">L298N</text>
+<rect x="500" y="200" width="220" height="345" rx="8" fill="#e3f2fd" stroke="#0d47a1" stroke-width="2"/>
+<text x="610" y="395" text-anchor="middle" font-size="16" fill="#212121" font-weight="bold">Arduino Uno</text>
+<text x="610" y="414" text-anchor="middle" font-size="12" fill="#424242">ATmega328P</text>
+<rect x="860" y="205" width="230" height="185" rx="8" fill="#f3e5f5" stroke="#4a148c" stroke-width="2"/>
+<text x="1010" y="290" text-anchor="middle" font-size="15" fill="#212121" font-weight="bold">nRF24L01+</text>
+<text x="1010" y="308" text-anchor="middle" font-size="12" fill="#424242">PA+LNA</text>
+<rect x="860" y="420" width="230" height="112" rx="8" fill="#e0f7fa" stroke="#006064" stroke-width="2"/>
+<text x="1010" y="472" text-anchor="middle" font-size="15" fill="#212121" font-weight="bold">HC-SR04</text>
+<text x="1010" y="490" text-anchor="middle" font-size="12" fill="#424242">ultrasonik</text>
+<polyline points="370,290 500,290" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="506" y="294" text-anchor="start" font-size="12" fill="#212121">D2</text>
+<text x="364" y="294" text-anchor="end" font-size="12" fill="#212121">IN1</text>
+<polyline points="370,316 500,316" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="506" y="320" text-anchor="start" font-size="12" fill="#212121">D3</text>
+<text x="364" y="320" text-anchor="end" font-size="12" fill="#212121">IN2</text>
+<polyline points="370,342 500,342" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="506" y="346" text-anchor="start" font-size="12" fill="#212121">D4</text>
+<text x="364" y="346" text-anchor="end" font-size="12" fill="#212121">IN3</text>
+<polyline points="370,368 500,368" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="506" y="372" text-anchor="start" font-size="12" fill="#212121">D5 ~</text>
+<text x="364" y="372" text-anchor="end" font-size="12" fill="#212121">ENA</text>
+<polyline points="370,394 500,394" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="506" y="398" text-anchor="start" font-size="12" fill="#212121">D6 ~</text>
+<text x="364" y="398" text-anchor="end" font-size="12" fill="#212121">ENB</text>
+<polyline points="370,420 500,420" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="506" y="424" text-anchor="start" font-size="12" fill="#212121">D7</text>
+<text x="364" y="424" text-anchor="end" font-size="12" fill="#212121">IN4</text>
+<polyline points="140,320 200,320" fill="none" stroke="#2e7d32" stroke-width="4"/>
+<text x="206" y="324" text-anchor="start" font-size="12" fill="#212121">OUT1/2</text>
+<polyline points="140,410 200,410" fill="none" stroke="#2e7d32" stroke-width="4"/>
+<text x="206" y="414" text-anchor="start" font-size="12" fill="#212121">OUT3/4</text>
+<polyline points="720,228 860,228" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="714" y="232" text-anchor="end" font-size="12" fill="#212121">D9</text>
+<text x="866" y="232" text-anchor="start" font-size="12" fill="#212121">CE</text>
+<polyline points="720,252 860,252" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="714" y="256" text-anchor="end" font-size="12" fill="#212121">D10</text>
+<text x="866" y="256" text-anchor="start" font-size="12" fill="#212121">CSN</text>
+<polyline points="720,276 860,276" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="714" y="280" text-anchor="end" font-size="12" fill="#212121">D11</text>
+<text x="866" y="280" text-anchor="start" font-size="12" fill="#212121">MOSI</text>
+<polyline points="720,300 860,300" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="714" y="304" text-anchor="end" font-size="12" fill="#212121">D12</text>
+<text x="866" y="304" text-anchor="start" font-size="12" fill="#212121">MISO</text>
+<polyline points="720,324 860,324" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="714" y="328" text-anchor="end" font-size="12" fill="#212121">D13</text>
+<text x="866" y="328" text-anchor="start" font-size="12" fill="#212121">SCK</text>
+<polyline points="720,348 860,348" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="714" y="352" text-anchor="end" font-size="12" fill="#212121">3V3</text>
+<text x="866" y="352" text-anchor="start" font-size="12" fill="#212121">VCC</text>
+<polyline points="720,372 860,372" fill="none" stroke="#212121" stroke-width="2.5"/>
+<text x="714" y="376" text-anchor="end" font-size="12" fill="#212121">GND</text>
+<text x="866" y="376" text-anchor="start" font-size="12" fill="#212121">GND</text>
+<circle cx="800" cy="348" r="4.5" fill="#c62828"/>
+<circle cx="800" cy="372" r="4.5" fill="#212121"/>
+<polyline points="800,348 800,356" fill="none" stroke="#c62828" stroke-width="2"/>
+<polyline points="800,364 800,372" fill="none" stroke="#212121" stroke-width="2"/>
+<polyline points="790,356 810,356" fill="none" stroke="#212121" stroke-width="3"/>
+<polyline points="790,364 810,364" fill="none" stroke="#212121" stroke-width="3"/>
+<text x="800" y="408" text-anchor="middle" font-size="12" fill="#212121" font-weight="bold">100 µF</text>
+<text x="800" y="423" text-anchor="middle" font-size="11" fill="#424242">VCC–GND paralel</text>
+<polyline points="720,446 860,446" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="714" y="450" text-anchor="end" font-size="12" fill="#212121">A0</text>
+<text x="866" y="450" text-anchor="start" font-size="12" fill="#212121">TRIG</text>
+<polyline points="720,470 860,470" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="714" y="474" text-anchor="end" font-size="12" fill="#212121">A1</text>
+<text x="866" y="474" text-anchor="start" font-size="12" fill="#212121">ECHO</text>
+<polyline points="720,494 860,494" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="714" y="498" text-anchor="end" font-size="12" fill="#212121">5V</text>
+<text x="866" y="498" text-anchor="start" font-size="12" fill="#212121">VCC</text>
+<polyline points="720,518 860,518" fill="none" stroke="#212121" stroke-width="2.5"/>
+<text x="714" y="522" text-anchor="end" font-size="12" fill="#212121">GND</text>
+<text x="866" y="522" text-anchor="start" font-size="12" fill="#212121">GND</text>
+<polyline points="250,107 250,250" fill="none" stroke="#c62828" stroke-width="3.5"/>
+<text x="244" y="240" text-anchor="end" font-size="11" fill="#c62828">+12V / VMS</text>
+<polyline points="320,107 320,250" fill="none" stroke="#212121" stroke-width="3.5"/>
+<text x="326" y="240" text-anchor="start" font-size="11" fill="#212121">GND</text>
+<text x="250" y="122" text-anchor="middle" font-size="14" fill="#c62828" font-weight="bold">+</text>
+<text x="331" y="122" text-anchor="middle" font-size="14" fill="#212121" font-weight="bold">−</text>
+<polyline points="545,62 595,62" fill="none" stroke="#c62828" stroke-width="3.5"/>
+<polyline points="545,92 595,92" fill="none" stroke="#212121" stroke-width="3.5"/>
+<text x="570" y="56" text-anchor="middle" font-size="13" fill="#c62828" font-weight="bold">+</text>
+<text x="570" y="106" text-anchor="middle" font-size="13" fill="#212121" font-weight="bold">−</text>
+<polyline points="640,107 640,135 560,135 560,200" fill="none" stroke="#c62828" stroke-width="3.5"/>
+<text x="554" y="192" text-anchor="end" font-size="12" fill="#c62828" font-weight="bold">VIN</text>
+<polyline points="720,107 720,165" fill="none" stroke="#212121" stroke-width="3.5"/>
+<polyline points="320,165 720,165" fill="none" stroke="#212121" stroke-width="3.5"/>
+<polyline points="620,165 620,200" fill="none" stroke="#212121" stroke-width="3.5"/>
+<text x="626" y="192" text-anchor="start" font-size="12" fill="#212121" font-weight="bold">GND</text>
+<circle cx="320" cy="165" r="4.5" fill="#212121"/>
+<circle cx="620" cy="165" r="4.5" fill="#212121"/>
+<circle cx="720" cy="165" r="4.5" fill="#212121"/>
+<text x="440" y="182" text-anchor="middle" font-size="12" fill="#212121" font-weight="bold">ORTAK GND</text>
+<rect x="20" y="563" width="1160" height="122" rx="8" fill="#fafafa" stroke="#bdbdbd"/>
+<polyline points="40,585 80,585" fill="none" stroke="#c62828" stroke-width="3.5"/>
+<text x="88" y="589" text-anchor="start" font-size="12" fill="#212121">besleme (+)</text>
+<polyline points="200,585 240,585" fill="none" stroke="#212121" stroke-width="3.5"/>
+<text x="248" y="589" text-anchor="start" font-size="12" fill="#212121">GND</text>
+<polyline points="310,585 350,585" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+<text x="358" y="589" text-anchor="start" font-size="12" fill="#212121">sinyal</text>
+<polyline points="440,585 480,585" fill="none" stroke="#2e7d32" stroke-width="4"/>
+<text x="488" y="589" text-anchor="start" font-size="12" fill="#212121">motor çıkışı</text>
+<text x="40" y="613" text-anchor="start" font-size="12.5" fill="#212121">• L298N üzerindeki ENA / ENB jumper'ları çıkarılmış olmalı; yoksa PWM ile hız kontrolü çalışmaz.</text>
+<text x="40" y="632" text-anchor="start" font-size="12.5" fill="#212121">• nRF24 VCC yalnızca 3,3 V — 5 V verilirse modül yanar. 100 µF kondansatör modülün hemen dibine, VCC–GND arasına paralel bağlanır.</text>
+<text x="40" y="651" text-anchor="start" font-size="12.5" fill="#212121">• Motorlar ve lojik ayrı pilden beslenir; iki pilin eksi uçları, L298N GND ve Uno GND tek noktada birleşir (ortak GND).</text>
+<text x="40" y="670" text-anchor="start" font-size="12.5" fill="#212121">• Bluetooth (HC-05) sürümünde pinler farklıdır: ayrıntı docs/elektrik.md içinde.</text>
+</svg>
